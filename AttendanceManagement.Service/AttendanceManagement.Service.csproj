@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="AttendanceService\Command\" />
+    <Folder Include="AttendanceService\Query\" />
+    <Folder Include="GroupClassService\Command\" />
+    <Folder Include="GroupClassService\Query\" />
+    <Folder Include="StudentService\Command\" />
+    <Folder Include="StudentService\Query\" />
+  </ItemGroup>
+
+</Project>
