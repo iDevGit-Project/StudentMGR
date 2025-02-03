@@ -2,6 +2,7 @@
 using AttendanceManagement.PublicMethodClass;
 using Microsoft.EntityFrameworkCore;
 using NToastNotify;
+using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +31,11 @@ builder.Services.AddMvc().AddNToastNotifyToastr(new ToastrOptions
     PositionClass = ToastPositions.TopCenter,
 });
 #endregion
+
+var cultureInfo = new System.Globalization.CultureInfo("fa-IR");
+CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
+CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
+
 
 var app = builder.Build();
 

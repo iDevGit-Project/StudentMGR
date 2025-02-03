@@ -42,22 +42,12 @@ namespace AttendanceManagement.ViewComponents
     }
     #endregion
 
-    #region Product کامپوننت منوهای مشکی سمت راست - آیتم 
+    #region  کامپوننت منوهای مشکی سمت راست - آیتم مدیریت اطلاعات پایه
     public class AsideRightMenuDark_Item_BasicManagementViewComponent : ViewComponent
     {
         public async Task<IViewComponentResult> InvokeAsync()
         {
             return View("AsideRightMenuDark_Item_BasicManagement");
-        }
-    }
-    #endregion
-
-    #region Discount کامپوننت منوهای مشکی سمت راست - آیتم 
-    public class AsideRightMenuDark_Item_DiscountViewComponent : ViewComponent
-    {
-        public async Task<IViewComponentResult> InvokeAsync()
-        {
-            return View("AsideRightMenuDark_Item_Discount");
         }
     }
     #endregion
@@ -142,16 +132,6 @@ namespace AttendanceManagement.ViewComponents
     }
     #endregion
 
-    #region کامپوننت مدیریت فاکتورها
-    public class AsideRightMenuDark_Item_FactorsViewComponent : ViewComponent
-    {
-        public async Task<IViewComponentResult> InvokeAsync()
-        {
-            return View("AsideRightMenuDark_Item_Factors");
-        }
-    }
-    #endregion
-
     #region کامپوننت بخش اطلاع رسانی ها و اخبار
     public class AsideRightMenuDark_Item_News_And_InformationViewComponent : ViewComponent
     {
@@ -172,16 +152,6 @@ namespace AttendanceManagement.ViewComponents
     }
     #endregion
 
-    #region کامپوننت بخش فروش و مدیریت آن
-    public class AsideRightMenuDark_Item_SalesViewComponent : ViewComponent
-    {
-        public async Task<IViewComponentResult> InvokeAsync()
-        {
-            return View("AsideRightMenuDark_Item_Sales");
-        }
-    }
-    #endregion
-
     #region کامپوننت تنظیمات فروشگاه آنلاین
     public class AsideRightMenuDark_Item_ShopSettingsViewComponent : ViewComponent
     {
@@ -198,16 +168,6 @@ namespace AttendanceManagement.ViewComponents
         public async Task<IViewComponentResult> InvokeAsync()
         {
             return View("AsideRightMenuDark_Item_SMS");
-        }
-    }
-    #endregion
-
-    #region کامپوننت بخش انبارداری و انبار گردانی
-    public class AsideRightMenuDark_Item_WareHouseViewComponent : ViewComponent
-    {
-        public async Task<IViewComponentResult> InvokeAsync()
-        {
-            return View("AsideRightMenuDark_Item_WareHouse");
         }
     }
     #endregion
