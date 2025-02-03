@@ -46169,7 +46169,8 @@ body[data-kt-sticky-landing-header=on] {
 [data-bs-theme=light] {
   --bs-app-bg-color: #f9f9f9;
   --bs-app-blank-bg-color: #ffffff;
-  --bs-app-header-base-bg-color: #060D15;
+  /*--bs-app-header-base-bg-color: #060D15;*/
+  --bs-app-header-base-bg-color: #ffffffe6;
   --bs-app-header-sticky-bg-color: #ffffff;
   --bs-app-toolbar-sticky-bg-color: #ffffff;
   --bs-app-toolbar-sticky-box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
@@ -46339,12 +46340,13 @@ body,
 }
 
 .app-header {
-  transition: none;
-  display: flex;
-  align-items: stretch;
-  background-color: var(--bs-app-header-base-bg-color);
-  box-shadow: var(--bs-app-header-base-box-shadow);
-  border-bottom: var(--bs-app-header-base-border-bottom);
+    transition: none;
+    display: flex;
+    align-items: stretch;
+    background-color: var(--bs-app-header-base-bg-color);
+    backdrop-filter: blur(3px);
+    box-shadow: var(--bs-app-header-base-box-shadow);
+    border-bottom: var(--bs-app-header-base-border-bottom);
 }
 
 @media (min-width: 992px) {
