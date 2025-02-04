@@ -11,8 +11,10 @@
     <Folder Include="AttendanceService\Query\" />
     <Folder Include="GroupClassService\Command\" />
     <Folder Include="GroupClassService\Query\" />
-    <Folder Include="StudentService\Command\" />
-    <Folder Include="StudentService\Query\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AttendanceManagement.Data\AttendanceManagement.Data.csproj" />
   </ItemGroup>
 
 </Project>
